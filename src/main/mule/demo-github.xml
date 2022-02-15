@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="demo-githubFlow" doc:id="5e427b74-5f07-405d-aaa1-1df4d0865730" >
 		<http:listener doc:name="Listener" doc:id="eaf4c439-dcc4-4e23-813c-75bad0b4ee48" config-ref="HTTP_Listener_config" path="/github"/>
-		<set-payload value="#['Demo github']" doc:name="Set Payload" doc:id="59caa39f-53d2-4c58-9b1a-e0aa1c0ba0f2" />
+		<set-payload value="#['Demo github 2']" doc:name="Set Payload" doc:id="59caa39f-53d2-4c58-9b1a-e0aa1c0ba0f2" />
 	</flow>
 </mule>
